@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'sessions/create'
+
   root "welcome#index"
 
   get 'auth/flickr', as: :login
