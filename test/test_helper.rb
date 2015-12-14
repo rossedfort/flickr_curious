@@ -28,13 +28,11 @@ class ActiveSupport::TestCase
       # omniauth will use when a user tries to authenticate:
       OmniAuth.config.mock_auth[:flickr] = OmniAuth::AuthHash.new({
         provider: 'flickr',
-        extra: {
-          raw_info: {
+          info: {
             user_id: "1234",
-            name: "Horace",
-            screen_name: "worace",
-          }
-        },
+            name: "Ross Edfort",
+            screen_name: "rossedfort",
+          },
         credentials: {
           token: "pizza",
           secret: "secretpizza"
