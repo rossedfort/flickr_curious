@@ -12,9 +12,11 @@ gem 'omniauth-flickr', '~> 0.0.18'
 gem 'figaro'
 
 group :development, :test do
-  gem 'byebug'
   gem 'pry'
   gem 'capybara'
+  gem 'simplecov'
+  gem 'launchy'
+  gem 'database_cleaner'
 end
 
 group :development do
