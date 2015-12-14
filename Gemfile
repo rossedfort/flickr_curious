@@ -10,6 +10,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'omniauth-flickr', '~> 0.0.18'
 gem 'figaro'
+gem 'materialize-sass'
 
 group :development, :test do
   gem 'pry'
