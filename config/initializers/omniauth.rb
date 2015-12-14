@@ -1,3 +1,3 @@
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :flickr, "YOUR_CONSUMER_API_KEY", "YOUR_CONSUMER_API_SECRET"
+  provider :flickr, "FLICKR_PUBLIC_KEY", "FLICKR_SECRET_KEY"
 end
