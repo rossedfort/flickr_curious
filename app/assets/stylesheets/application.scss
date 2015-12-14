@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+@import 'materialize';
+
+.large-top-margin{
+  margin-top: 200px;
+}
+
+.top-margin{
+  margin-top: 50px;
+}
