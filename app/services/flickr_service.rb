@@ -1,6 +1,7 @@
 class FlickrService
   def initialize
     FlickRaw.api_key=(ENV['FLICKR_PUBLIC_KEY_PRO'])
+    FlickRaw.shared_secret=(ENV['FLICKR_SECRET_KEY_PRO'])
   end
 
   def get_photos_by_user(user_id)
