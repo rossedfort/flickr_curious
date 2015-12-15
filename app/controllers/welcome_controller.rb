@@ -1,5 +1,8 @@
 class WelcomeController < ApplicationController
   def index
-    @photos = flickr.people.getPhotos(user_id: '45646189@N06', per_page: 12)
+    if current_user
+      user = flickr.people.findByUsername(username: current_user.user_name)
+      @photos = flickr.people.getPhotos(user_id: user.id, per_page: 12)
+    end
   end
 end
