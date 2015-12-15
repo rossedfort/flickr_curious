@@ -12,6 +12,7 @@ gem 'omniauth-flickr', '~> 0.0.18'
 gem 'figaro'
 gem 'materialize-sass'
 gem 'rails_12factor', group: :production
+gem 'flickraw', '~> 0.9.8'
 
 group :development, :test do
   gem 'pry'

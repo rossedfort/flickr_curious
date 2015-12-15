@@ -7,3 +7,8 @@
     <%= link_to "login", login_path %>
   <% end %>
 </div>
+<div class="container">
+  <% @photos.each do |photo| %>
+    <%= image_tag FlickRaw.url_m(photo) %>
+  <% end %>
+</div>
