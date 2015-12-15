@@ -12,5 +12,4 @@ class FlickrService
     info = flickr.photos.getInfo(photo_id: photo_id)
     FlickRaw.url_b(info)
   end
-
 end
