@@ -23,7 +23,5 @@ module FlickrCurious
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
-    FlickRaw.api_key=(ENV['FLICKR_PUBLIC_KEY_PRO'])
-    FlickRaw.shared_secret=(ENV['FLICKR_SECRET_KEY_PRO'])
   end
 end

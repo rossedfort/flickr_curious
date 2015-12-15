@@ -8,4 +8,8 @@ class User < ActiveRecord::Base
       new_user.oauth_token_secret = auth_info.credentials.secret
     end
   end
+
+  def self.service
+    FlickrService.new
+  end
 end

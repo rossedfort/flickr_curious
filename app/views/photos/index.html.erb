@@ -1,0 +1,12 @@
+<div class="container top-margin center">
+  <h1>Your Photos</h1><br>
+  <div class="row">
+    <% @photos.each do |photo| %>
+      <div class="photo-container col s3" id="photo_<%= photo.id %>">
+        <%= link_to photo_path(photo.id) do %>
+          <%= image_tag FlickRaw.url_m(photo) %>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>

@@ -1,25 +1,6 @@
 <div class="container center med-top-margin">
   <h1>Welcome to flickr curious :D</h1>
-  <% if current_user %>
-    <p>hello, <%= current_user.name %></p>
-    <%= link_to "logout", logout_path %>
-  <% else %>
-    <%= link_to "login", login_path %>
-  <% end %>
+  <p>
+    hello <%= current_user.user_name %>
+  </p>
 </div>
-<% if current_user %>
-  <div class="container top-margin center">
-    <h1>Your Most Recent Uploads</h1><br>
-    <div class="row">
-      <% @photos.each do |photo| %>
-        <div class="photo-container col s3" id="photo_<%= photo.id %>">
-          <%= image_tag FlickRaw.url_m(photo) %>
-        </div>
-      <% end %>
-    </div>
-  </div>
-<% else %>
-  <div class="container center">
-    <h1>Please Login!</h1>
-  </div>
-<% end %>
