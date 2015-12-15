@@ -1,7 +1,6 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
-require 'flickraw'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -23,7 +22,5 @@ module FlickrCurious
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
-    FlickRaw.api_key=ENV["FLICKR_PUBLIC_KEY_PRO"]
-    FlickRaw.shared_secret=ENV["FLICKR_SECRET_KEY_PRO"]
   end
 end

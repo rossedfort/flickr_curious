@@ -7,8 +7,19 @@
     <%= link_to "login", login_path %>
   <% end %>
 </div>
-<div class="container">
-  <% @photos.each do |photo| %>
-    <%= image_tag FlickRaw.url_m(photo) %>
-  <% end %>
-</div>
+<% if current_user %>
+  <div class="container top-margin center">
+    <h1>Your Most Recent Uploads</h1><br>
+    <div class="row">
+      <% @photos.each do |photo| %>
+        <div class="photo-container col s3" id="photo_<%= photo.id %>">
+          <%= image_tag FlickRaw.url_m(photo) %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+<% else %>
+  <div class="container center">
+    <h1>Please Login!</h1>
+  </div>
+<% end %>

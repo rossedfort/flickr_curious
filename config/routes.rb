@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get 'auth/flickr', as: :login
   get 'auth/flickr/callback', to: 'sessions#create'
   get '/logout', to: 'sessions#destroy'
+  get '/account', to: "users#edit"
 end
