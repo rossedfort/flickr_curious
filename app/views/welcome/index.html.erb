@@ -1,9 +1,6 @@
-<div class="container center top-margin">
+<div class="container center med-top-margin">
   <h1>Welcome to flickr curious :D</h1>
-  <% if current_user %>
-    <p>hello, <%= current_user.name %></p>
-    <%= link_to "logout", logout_path %>
-  <% else %>
-    <%= link_to "login", login_path %>
-  <% end %>
+  <p>
+    hello <%= current_user.user_name %>
+  </p>
 </div>
