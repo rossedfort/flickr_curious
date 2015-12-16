@@ -20,6 +20,9 @@ group :development, :test do
   gem 'simplecov'
   gem 'launchy'
   gem 'database_cleaner'
+  gem 'webmock'
+  gem 'vcr'
+  gem 'mocha'
 end
 
 group :development do
