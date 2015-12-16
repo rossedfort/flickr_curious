@@ -6,7 +6,7 @@ class UserCanLoginWithOAuthTest < ActionDispatch::IntegrationTest
         assert_equal 200, page.status_code
         click_link "login"
         assert_equal "/", current_path
-        assert page.has_content?("Ross Edfort")
+        assert page.has_content?("ross_edfort")
         assert page.has_link?("logout")
   end
 end

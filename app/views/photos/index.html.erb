@@ -4,7 +4,7 @@
     <% @photos.each do |photo| %>
       <div class="photo-container col s3" id="photo_<%= photo.id %>">
         <%= link_to photo_path(photo.id) do %>
-          <%= image_tag FlickRaw.url_m(photo) %>
+          <%= image_tag get_photo(photo.id) %>
         <% end %>
       </div>
     <% end %>

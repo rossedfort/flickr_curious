@@ -12,4 +12,12 @@ class FlickrService
     info = flickr.photos.getInfo(photo_id: photo_id)
     FlickRaw.url_b(info)
   end
+
+  def get_albums_by_user(user_id)
+    flickr.photosets.getList(user_id)
+  end
+
+  def get_album_photos(album_id)
+    flickr.photosets.getPhotos(photoset_id: album_id).photo
+  end
 end
