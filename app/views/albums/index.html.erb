@@ -1,0 +1,20 @@
+<div class="container top-margin">
+  <h1><%= current_user.user_name %>'s Albums</h1>
+  <div class="row">
+    <% @albums.each do |album| %>
+      <div class="col s3">
+        <div class="photo-container">
+          <%= image_tag first_album_photo(album)  %>
+        </div>
+        <div class="album-description">
+          <p>
+            <%= link_to album.title, album_path(album.id) %><br>
+            <%= album.photos %> Photos<br>
+            <%= album.count_views %> views<br>
+            <%= album.count_comments %> comments
+          </p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

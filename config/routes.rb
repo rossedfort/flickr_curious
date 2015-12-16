@@ -8,5 +8,6 @@ Rails.application.routes.draw do
   get '/logout', to: 'sessions#destroy'
   get '/account', to: "users#edit"
 
-  resources :photos
+  resources :photos, only: [:index, :show]
+  resources :albums, only: [:index, :show]
 end
