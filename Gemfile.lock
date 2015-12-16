@@ -66,6 +66,8 @@ GEM
     figaro (1.1.1)
       thor (~> 0.14)
     flickraw (0.9.8)
+    flickraw-cached (20120701)
+      flickraw (>= 0.9)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     hashdiff (0.2.3)
@@ -200,7 +202,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   database_cleaner
   figaro
-  flickraw (~> 0.9.8)
+  flickraw-cached (~> 20120701)
   jbuilder (~> 2.0)
   jquery-rails
   launchy

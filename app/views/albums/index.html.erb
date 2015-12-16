@@ -1,14 +1,14 @@
 <div class="container top-margin">
   <h1><%= current_user.user_name %>'s Albums</h1>
   <div class="row">
-    <% @albums.each do |album| %>
-      <div class="col s3">
+    <% @albums.each_with_index do |album, index| %>
+      <div class="col s3" id="album_<%= index %>">
         <div class="photo-container">
           <%= image_tag first_album_photo(album)  %>
         </div>
         <div class="album-description">
           <p>
-            <%= link_to album.title, album_path(album.id) %><br>
+            <%= link_to album.title, album_path(album.id), id: "album_link_#{index}"%><br>
             <%= album.photos %> Photos<br>
             <%= album.count_views %> views<br>
             <%= album.count_comments %> comments

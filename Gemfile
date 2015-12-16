@@ -12,7 +12,7 @@ gem 'omniauth-flickr', '~> 0.0.18'
 gem 'figaro'
 gem 'materialize-sass'
 gem 'rails_12factor', group: :production
-gem 'flickraw', '~> 0.9.8'
+gem 'flickraw-cached', '~> 20120701'
 
 group :development, :test do
   gem 'pry'
@@ -20,9 +20,12 @@ group :development, :test do
   gem 'simplecov'
   gem 'launchy'
   gem 'database_cleaner'
-  gem 'webmock'
   gem 'vcr'
   gem 'mocha'
+end
+
+group :test do
+  gem 'webmock'
 end
 
 group :development do

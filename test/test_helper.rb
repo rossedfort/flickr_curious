@@ -17,10 +17,6 @@ class ActiveSupport::TestCase
   VCR.configure do |config|
     config.cassette_library_dir = "test/cassettes"
     config.hook_into :webmock
-    # config.ignore_request do |request|
-    #   p request
-    #   request.uri == 'https://www.flickr.com/services/oauth/request_token'
-    # end
   end
 
   def setup
@@ -46,5 +42,14 @@ class ActiveSupport::TestCase
         secret: "secretpizza"
       }
     })
+  end
+
+  def stub_album_photos
+    FlickrService.any_instance.stubs(:get_album_photos).returns([
+                                                                OpenStruct.new({"id"=>"16712094044", "secret"=>"1347f8a8d0", "server"=>"7671", "farm"=>8, "title"=>"", "isprimary"=>"0", "ispublic"=>1, "isfriend"=>0, "isfamily"=>0}),
+                                                                OpenStruct.new({"id"=>"16902223214", "secret"=>"7654fa6e27", "server"=>"8694", "farm"=>9, "title"=>"", "isprimary"=>"0", "ispublic"=>1, "isfriend"=>0, "isfamily"=>0}),
+                                                                OpenStruct.new({"id"=>"16904440203", "secret"=>"fbeca6833b", "server"=>"8888", "farm"=>9, "title"=>"", "isprimary"=>"0", "ispublic"=>1, "isfriend"=>0, "isfamily"=>0}),
+                                                                OpenStruct.new({"id"=>"17336937248", "secret"=>"9d860271b0", "server"=>"7697", "farm"=>8, "title"=>"", "isprimary"=>"0", "ispublic"=>1, "isfriend"=>0, "isfamily"=>0})]
+                                                                 )
   end
 end
