@@ -1,0 +1,9 @@
+<div class="container med-top-margin">
+  <%= form_for @user do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <%= f.label :user_name %>
+    <%= f.text_field :user_name %>
+    <%= f.submit "Update", class: 'btn blue' %>
+  <% end %>
+</div>

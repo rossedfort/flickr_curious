@@ -29,12 +29,14 @@
 
 .photo-container{
   min-width: 250px;
-  min-height: 250px;
+  min-height: 200px;
+  max-height: 200px;
   margin-top: 20px;
   margin-bottom: 50px;
 }
 
 #global-nav .gn-wrap #logo-main{
+  position: absolute;
   margin-top: 15px;
   color: #FFF;
   font-size: 24px;
@@ -42,4 +44,14 @@
 
 .album-description{
   margin-bottom: 50px;
+}
+
+.links{
+  position: absolute;
+  left: 175px;
+}
+
+.photo-well{
+  width: 100%;
+  background-color: #cccccc;
 }

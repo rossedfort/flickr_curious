@@ -10,4 +10,5 @@ Rails.application.routes.draw do
 
   resources :photos, only: [:index, :show]
   resources :albums, only: [:index, :show]
+  resources :users, only: [:update]
 end
