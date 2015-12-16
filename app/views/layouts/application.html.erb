@@ -5,49 +5,11 @@
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://s.yimg.com/pw/combo/1/3.11.0?c/c_.X_nav_re.GW.BC.v3wGzM2B&c/c_.J_.D.BC.v3Eu2kD4&c/c_.EM_.D.BC.v5fL7pXT&c/c_.B-.LGs-2013.BC.v4C1w5xK&c/c_sihp-.LGs-423.BC.v5L1UKrK&c/c_sihp-.LGs-icons.BC.v5XUs8PK&c/c_.HG.BC.v2TKc8xk&c/c_.FW-.HN.BC.v4kkuEVP&c/c_.B-.BBs-v3.BC.vk1vaxp&c/c_.LD423.BC.v4uv1Cf2&c/c_.LD.I-423.BC.v3hgkVd6&c/c_signup_form.BC.v3nPhCxg&c/c_feed-promotional-banners.BC.v2vdUqqi&" type="text/css">
 </head>
 <body>
-<div id="global-nav" class="no-js  styleguide-global-nav">
-   <div id="gn-wrap" class="gn-wrap">
-	    <div class="logo">
-		    <a href="/" id="logo-main" title="Flickr logo. If you click it, you'll go home">
-          FlickrCurious
-        </a>
-      </div>
-    <% if current_user %>
-      <li class="toplink upload-icon-link">
-  			<a data-track="UploadIcon-main" class="gn-link global-nav-upload" href="/upload">
-  				<i class="upload-icon" title="Upload">Upload</i>
-  			</a>
-  		</li>
-      <li class="gn-menu-parent toplink gn-account" data-context="account">
-  			<span class="gn-link account"><img class="gn-buddyicon" src="https://c1.staticflickr.com/9/8792/buddyicons/45646189@N06.jpg?1428518939#45646189@N06" alt="" width="33" height="33"></span>
-  			<div id="gb-ac-wrap">
-  				<div id="gb-ac-panel" class="panel arrow_box new-account-menu">
-  					<div id="gb-ac-profile" class="clearfix">
-  						<div class="wrap left">
-  							<div class="iwrap">
-  								<div class="welcome "><span lang="en" title="en-us">G&rsquo;day,</span> ross_edfort!</div>
-  								<div class="wel-desc">Now you know how to greet people in Australian!</div>
-  							</div>
-  						</div>
-  					</div>
-  					<ul class="ac-nav">
-  						<li>
-  							<a data-track="Account-settings" href="/account">Settings</a>
-  						</li>
-  						<li>
-  							<a data-track="Account-sign_out" href="/logout.gne?magic_cookie=848aa8d71c8f92bffc208149d01f0787b22460e6d3a4b50563e8da95c6c773df">Sign out</a>
-  						</li>
-  					</ul>
-  				</div>
-  			</div>
-  		</li>
-    <% end %>
-  </div>
-</div>
-
+<%= render partial: 'partials/nav' %>
 <%= yield %>
 
 </body>

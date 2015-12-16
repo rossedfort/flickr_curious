@@ -5,7 +5,7 @@ class FlickrService
   end
 
   def get_photos_by_user(user_id)
-    flickr.people.getPhotos(user_id: user_id)
+    flickr.people.getPhotos(user_id: user_id, per_page: 12)
   end
 
   def get_photo(photo_id)

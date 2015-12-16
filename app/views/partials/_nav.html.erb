@@ -1,0 +1,43 @@
+<div id="global-nav" class="no-js  styleguide-global-nav">
+   <div id="gn-wrap" class="gn-wrap">
+	    <div>
+		    <a href="/" id="logo-main">FlickrCurious</a>
+      </div>
+    <% if current_user %>
+      <div class="links">
+        <li class="gn-menu-parent toplink">
+          <a class="gn-link" href="/photos">Photos</a>
+        </li>
+        <li class="gn-menu-parent toplink">
+          <a class="gn-link" href="/albums">Albums</a>
+        </li>
+        <li class="gn-menu-parent toplink">
+          <a class="gn-link" href="/logout">Logout</a>
+        </li>
+      </div>
+      <li class="gn-menu-parent toplink gn-account" data-context="account">
+  			<span class="gn-link account"><img class="gn-buddyicon" src="https://c1.staticflickr.com/9/8792/buddyicons/45646189@N06.jpg?1428518939#45646189@N06" alt="" width="33" height="33"></span>
+  			<div id="gb-ac-wrap">
+  				<div id="gb-ac-panel" class="panel arrow_box new-account-menu">
+  					<div id="gb-ac-profile" class="clearfix">
+  						<div class="wrap left">
+  							<div class="iwrap">
+  								<div class="welcome "><span lang="en" title="en-us">G&rsquo;day,</span> ross_edfort!</div>
+  								<div class="wel-desc">Now you know how to greet people in Australian!</div>
+  							</div>
+  						</div>
+  					</div>
+  					<ul class="ac-nav">
+  						<li>
+  							<a data-track="Account-settings" href="/account">Settings</a>
+  						</li>
+  						<li>
+  							<a data-track="Account-sign_out" href="/logout.gne?magic_cookie=848aa8d71c8f92bffc208149d01f0787b22460e6d3a4b50563e8da95c6c773df">Sign out</a>
+  						</li>
+  					</ul>
+  				</div>
+  			</div>
+  		</li>
+    <% end %>
+  </div>
+</div>
