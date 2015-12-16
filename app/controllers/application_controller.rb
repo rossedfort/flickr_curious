@@ -19,4 +19,8 @@ class ApplicationController < ActionController::Base
     info = flickr.photos.getInfo(photo_id: photo_id)
     FlickRaw.url_m(info)
   end
+
+  def user_info(user_id)
+    flickr.people.getInfo(user_id: user_id)
+  end
 end
