@@ -3,6 +3,7 @@
 class UserCanViewAlbumsTest < ActionDispatch::IntegrationTest
   test "user can see albums" do
     stub_omniauth
+    stub_album_photos
     VCR.use_cassette("flickr_service#albums", :allow_playback_repeats => true) do
       visit "/"
       click_link "login"
@@ -14,6 +15,8 @@ class UserCanViewAlbumsTest < ActionDispatch::IntegrationTest
   test "user can see album photos" do
     stub_omniauth
     stub_album_photos
+    stub_album_info
+    stub_views
     VCR.use_cassette("flickr_service#albums", :allow_playback_repeats => true) do
       visit "/"
       click_link "login"

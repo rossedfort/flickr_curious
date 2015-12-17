@@ -29,8 +29,7 @@
 
 .photo-container{
   min-width: 250px;
-  min-height: 200px;
-  max-height: 200px;
+  min-height: 250px;
   margin-top: 20px;
   margin-bottom: 50px;
 }
@@ -43,7 +42,7 @@
 }
 
 .album-description{
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 .links{
@@ -64,4 +63,12 @@
 .photo-info{
   position: absolute;
   right: 200px;
+}
+
+.album-photo-container{
+  margin-top: 20px;
+}
+
+.photo-description{
+  min-height: 100px;
 }

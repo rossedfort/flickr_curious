@@ -20,6 +20,10 @@ class FlickrService
     flickr.photosets.getPhotos(photoset_id: album_id, per_page: 12).photo
   end
 
+  def get_album_info(album_id, user_id)
+    flickr.photosets.getInfo(photoset_id: album_id, user_id: user_id)
+  end
+
   def get_comments(photo_id)
     comments = flickr.photos.comments.getList(photo_id: photo_id)
     if comments.class == "Array"

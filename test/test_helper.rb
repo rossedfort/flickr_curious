@@ -55,4 +55,12 @@ class ActiveSupport::TestCase
                                                                 OpenStruct.new({"id"=>"17336937248", "secret"=>"9d860271b0", "server"=>"7697", "farm"=>8, "title"=>"", "isprimary"=>"0", "ispublic"=>1, "isfriend"=>0, "isfamily"=>0})]
                                                                  )
   end
+
+  def stub_album_info
+    FlickrService.any_instance.stubs(:get_album_info).returns(OpenStruct.new("title" => "title"))
+  end
+
+  def stub_views
+    ApplicationController.any_instance.stubs(:views).returns(OpenStruct.new("views" => "20"))
+  end
 end

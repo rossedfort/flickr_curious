@@ -10,4 +10,8 @@ class Album
   def self.show(album_id)
     service.get_album_photos(album_id)
   end
+
+  def self.info(album_id, user_id)
+    service.get_album_info(album_id, user_id)
+  end
 end
