@@ -29,9 +29,10 @@
   <div class="col s6 comment-box">
     <h1>Comments:</h1><br>
       <% @comments.each do |comment| %>
-      <p>
-        <%= comment %>
-      </p><br>
+      <h3>
+        <%= comment[1] %> says:
+        <%= comment[0] %>
+      </h3><br>
       <% end %>
   </div>
 </div>
