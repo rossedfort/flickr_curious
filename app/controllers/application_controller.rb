@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
-  helper_method :current_user, :flickr_user, :first_album_photo, :get_photo, :user_info
+  helper_method :current_user, :flickr_user, :first_album_photo, :get_photo, :user_info, :buddy_icon
 
   def current_user
     @current_user ||= User.find_by(id: session[:user_id]) if session[:user_id]
@@ -22,5 +22,10 @@ class ApplicationController < ActionController::Base
 
   def user_info(user_id)
     flickr.people.getInfo(user_id: user_id)
+  end
+
+  def buddy_icon
+    user = flickr.people.getInfo(user_id: current_user.uid)
+    "https://c1.staticflickr.com/#{user.iconfarm}/#{user.iconserver}/buddyicons/#{user.nsid}.jpg"
   end
 end

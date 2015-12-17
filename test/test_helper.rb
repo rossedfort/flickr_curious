@@ -33,6 +33,9 @@ class ActiveSupport::TestCase
     OmniAuth.config.mock_auth[:flickr] = OmniAuth::AuthHash.new({
       provider: 'flickr',
       uid: "45646189@N06",
+      nsid: "45646189@N06",
+      iconserver: "8792",
+      iconfarm: "9",
       info: {
               name: "Ross Edfort",
               nickname: "ross_edfort"

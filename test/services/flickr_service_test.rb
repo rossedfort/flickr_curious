@@ -7,7 +7,10 @@ class FlickrServiceTest < ActiveSupport::TestCase
     @service = FlickrService.new
     @user = User.create!(name: 'Ross Edfort',
                         user_name: 'ross_edfort',
-                        uid: '45646189@N06')
+                        uid: '45646189@N06',
+                        nsid: '45646189@N06',
+                        iconfarm: "9",
+                        iconserver: "8792")
     ApplicationController.any_instance.stubs(:current_user).returns(@user)
   end
 
