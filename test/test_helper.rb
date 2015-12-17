@@ -38,7 +38,7 @@ class ActiveSupport::TestCase
               nickname: "ross_edfort"
             },
       credentials: {
-        token: "pizza",
+        token: ENV['FLICKR_PUBLIC_KEY_PRO'],
         secret: "secretpizza"
       }
     })
@@ -54,6 +54,10 @@ class ActiveSupport::TestCase
   end
 
   def stub_flickr_user
-    ApplicationController.any_instance.stubs(:flickr_user).returns(OpenStruct.new({"id"=>"45646189@N06", "nsid"=>"45646189@N06", "username"=>"ross_edfort"}))
+    FlickrService.any_instance.stubs(:get_photos_by_user).returns([OpenStruct.new({"id"=>"17362809323", "owner"=>"45646189@N06", "secret"=>"2eb0de3016", "server"=>"7727", "farm"=>8, "title"=>"", "ispublic"=>1, "isfriend"=>0, "isfamily"=>0})])
+  end
+
+  def stub_get_photo
+    ApplicationController.any_instance.stubs(:get_photo).returns("https://farm8.staticflickr.com/7727/17362809323_2eb0de3016_m.jpg")
   end
 end
