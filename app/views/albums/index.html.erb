@@ -4,15 +4,15 @@
     <% @albums.each_with_index do |album, index| %>
       <div class="col s3" id="album_<%= index %>">
         <div class="photo-container">
-          <%= image_tag first_album_photo(album)  %>
+          <%= link_to album_path(album.id) do %>
+            <%= image_tag first_album_photo(album) %>
+          <% end %>
         </div>
         <div class="album-description">
-          <p>
-            <%= link_to album.title, album_path(album.id), id: "album_link_#{index}"%><br>
-            <%= album.photos %> Photos<br>
-            <%= album.count_views %> views<br>
-            <%= album.count_comments %> comments
-          </p>
+          <h3><%= link_to album.title, album_path(album.id), id: "album_link_#{index}"%></h3>
+          <h3><%= album.photos %> Photos</h3>
+          <h3><%= album.count_views %> views</h3>
+          <h3><%= album.count_comments %> comments</h3>
         </div>
       </div>
     <% end %>

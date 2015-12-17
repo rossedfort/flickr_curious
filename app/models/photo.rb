@@ -10,4 +10,8 @@ class Photo
   def self.show(photo_id)
     service.get_photo(photo_id)
   end
+
+  def self.comments(photo_id)
+    service.get_comments(photo_id)
+  end
 end

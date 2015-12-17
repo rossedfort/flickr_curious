@@ -10,7 +10,6 @@ class FlickrService
 
   def get_photo(photo_id)
     info = flickr.photos.getInfo(photo_id: photo_id)
-    FlickRaw.url_b(info)
   end
 
   def get_albums_by_user(user_id)
@@ -18,6 +17,15 @@ class FlickrService
   end
 
   def get_album_photos(album_id)
-    flickr.photosets.getPhotos(photoset_id: album_id).photo
+    flickr.photosets.getPhotos(photoset_id: album_id, per_page: 12).photo
+  end
+
+  def get_comments(photo_id)
+    comments = flickr.photos.comments.getList(photo_id: photo_id)
+    if comments.class == "Array"
+      comments.map { |comment| comment._content }
+    else
+      []
+    end
   end
 end

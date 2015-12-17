@@ -1,3 +1,38 @@
-<div class="container large-top-margin center">
-  <%= image_tag @photo, class: "photo" %>
+<div class="row">
+  <div class="top-margin center col s9 large-photo-col">
+    <h1><%= @photo.title %></h1>
+    <%= image_tag FlickRaw.url_c(@photo), class: "photo" %>
+  </div>
+  <div class="large-top-margin photo-info">
+    <div class="med-top-margin">
+      <% if has_location?(@photo) %>
+        <h3>Date Taken: <%= @photo.dates.taken[0..-9] %></h3>
+        <h3>Country: <%= @photo.location.country._content %></h3>
+        <h3>State: <%= @photo.location.region._content %></h3>
+        <% if has_county?(@photo) %>
+          <h3>City: <%= @photo.location.county._content %></h3>
+        <% else %>
+          <h3>City: <%= @photo.location.locality._content %></h3>
+        <% end %>
+      <% end %>
+      <h3>Tags:
+        <% @photo.tags.each do |tag| %>
+          <%= tag %>,
+        <% end %>
+      </h3>
+      <%= link_to "View on Flickr", FlickRaw.url_photopage(@photo) %>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col s6 comment-box">
+    <h1>Comments:</h1><br>
+    <ul>
+      <% @comments.each do |comment| %>
+      <li>
+        <%= comment %>
+      </li>
+      <% end %>
+    </ul>
+  </div>
 </div>

@@ -24,7 +24,9 @@ class FlickrServiceTest < ActiveSupport::TestCase
   test "#get_photo" do
     VCR.use_cassette("flickr_service#get_photo") do
       photo = service.get_photo(17983325485)
-      assert_equal photo, "https://farm9.staticflickr.com/8893/17983325485_c48afe2980_b.jpg"
+
+      assert_equal photo.id, "17983325485"
+      assert_equal photo.owner.nsid, @user.nsid
     end
   end
 end
