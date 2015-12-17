@@ -52,12 +52,4 @@ class ActiveSupport::TestCase
                                                                 OpenStruct.new({"id"=>"17336937248", "secret"=>"9d860271b0", "server"=>"7697", "farm"=>8, "title"=>"", "isprimary"=>"0", "ispublic"=>1, "isfriend"=>0, "isfamily"=>0})]
                                                                  )
   end
-
-  def stub_flickr_user
-    FlickrService.any_instance.stubs(:get_photos_by_user).returns([OpenStruct.new({"id"=>"17362809323", "owner"=>"45646189@N06", "secret"=>"2eb0de3016", "server"=>"7727", "farm"=>8, "title"=>"", "ispublic"=>1, "isfriend"=>0, "isfamily"=>0})])
-  end
-
-  def stub_get_photo
-    ApplicationController.any_instance.stubs(:get_photo).returns("https://farm8.staticflickr.com/7727/17362809323_2eb0de3016_m.jpg")
-  end
 end
