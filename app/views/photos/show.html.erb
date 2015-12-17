@@ -28,12 +28,10 @@
 <div class="row">
   <div class="col s6 comment-box">
     <h1>Comments:</h1><br>
-    <ul>
       <% @comments.each do |comment| %>
-      <li>
+      <p>
         <%= comment %>
-      </li>
+      </p><br>
       <% end %>
-    </ul>
   </div>
 </div>

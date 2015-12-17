@@ -26,10 +26,15 @@ class FlickrService
 
   def get_comments(photo_id)
     comments = flickr.photos.comments.getList(photo_id: photo_id)
-    if comments.class == "Array"
-      comments.map { |comment| comment._content }
+    parsed = parse(comments.to_json)
+    if parsed.class == Array
+      parsed.map { |comment| comment["_content"] }
     else
       []
     end
+  end
+
+  def parse(content)
+    JSON.parse(content)
   end
 end
