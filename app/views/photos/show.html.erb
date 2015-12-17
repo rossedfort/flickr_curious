@@ -4,9 +4,9 @@
     <%= image_tag FlickRaw.url_c(@photo), class: "photo" %>
   </div>
   <div class="large-top-margin photo-info">
-    <div class="med-top-margin">
-      <% if has_location?(@photo) %>
+    <div class="top-margin">
         <h3>Date Taken: <%= @photo.dates.taken[0..-9] %></h3>
+        <% if has_location?(@photo) %>
         <h3>Country: <%= @photo.location.country._content %></h3>
         <h3>State: <%= @photo.location.region._content %></h3>
         <% if has_county?(@photo) %>
@@ -14,6 +14,7 @@
         <% else %>
           <h3>City: <%= @photo.location.locality._content %></h3>
         <% end %>
+        <iframe width="400" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=<%= @photo.location.latitude %>,<%= @photo.location.longitude %>&key=<%= ENV['GOOGLE_MAPS_KEY'] %>" allowfullscreen></iframe>
       <% end %>
       <h3>Tags:
         <% @photo.tags.each do |tag| %>
