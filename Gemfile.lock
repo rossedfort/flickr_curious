@@ -68,6 +68,7 @@ GEM
     flickraw (0.9.8)
     flickraw-cached (20120701)
       flickraw (>= 0.9)
+    geocoder (1.2.13)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     hashdiff (0.2.3)
@@ -203,6 +204,7 @@ DEPENDENCIES
   database_cleaner
   figaro
   flickraw-cached (~> 20120701)
+  geocoder
   jbuilder (~> 2.0)
   jquery-rails
   launchy

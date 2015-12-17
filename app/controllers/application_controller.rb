@@ -8,8 +8,9 @@ class ApplicationController < ActionController::Base
     @current_user ||= User.find_by(id: session[:user_id]) if session[:user_id]
   end
 
-  def top_tags
-    flickr.places.tagsForPlace(woe_id: '12792942')
+  def top_tags(lat, lon)
+    id = flickr.places.findByLatLon(lat: lat, lon: lon)
+    flickr.places.tagsForPlace(woe_id: id)
   end
 
   def flickr_user(uid)

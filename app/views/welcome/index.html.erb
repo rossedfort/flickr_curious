@@ -19,7 +19,7 @@
     <div class="top-margin">
       <h1>Top Tags for Denver!</h1><br>
     <p>
-      <% top_tags.each do |tag| %>
+      <% top_tags(@location.latitude, @location.longitude).each do |tag| %>
         <%= tag %> -
       <% end %>
     </p>
