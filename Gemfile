@@ -13,7 +13,6 @@ gem 'figaro'
 gem 'materialize-sass'
 gem 'rails_12factor', group: :production
 gem 'flickraw-cached', '~> 20120701'
-gem 'geocoder'
 
 group :development, :test do
   gem 'pry'
