@@ -72,3 +72,15 @@
 .photo-description{
   min-height: 100px;
 }
+
+.album-container{
+  background-color: #cccccc;
+}
+
+.photo-container a img{
+  box-shadow: 10px 10px 15px #888888;
+}
+
+.object-fit_fill{
+  object-fit: fill
+}

@@ -2,9 +2,9 @@
   <h1><%= current_user.user_name %>'s Albums</h1>
   <div class="row">
     <% @albums.each_with_index do |album, index| %>
-      <div class="col s3" id="album_<%= index %>">
+      <div class="col s3 album-container" id="album_<%= index %>">
         <div class="photo-container">
-          <%= link_to album_path(album.id) do %>
+          <%= link_to album_path(album.id), class: 'object-fit_fill' do %>
             <%= image_tag first_album_photo(album) %>
           <% end %>
         </div>
