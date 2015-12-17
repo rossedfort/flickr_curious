@@ -15,6 +15,7 @@ class UserCanViewPhotosTest < ActionDispatch::IntegrationTest
 
   test "user can see an individual photo" do
     stub_omniauth
+    stub_album_info
     VCR.use_cassette("flickr_service#photos", :allow_playback_repeats => true) do
       visit "/"
       click_link "login"

@@ -15,8 +15,8 @@ http_interactions:
       - FlickRaw/0.9.8
       Authorization:
       - OAuth realm="https://api.flickr.com/services/rest/", oauth_consumer_key="0f3a24c9d16095734cebf6b5e8753f15",
-        oauth_nonce="SuPOxjyeq1e9FdWacTUZTeWoV0iPemAOwuF6RctFTUU%3D", oauth_signature="e91fce5ff67d9678%26",
-        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450334324", oauth_token="",
+        oauth_nonce="Ixeg2qTYOCCdOtjB7wXghDrtG52Zf2jH5MzAatWtamE%3D", oauth_signature="e91fce5ff67d9678%26",
+        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450336646", oauth_token="",
         oauth_version="1.0"
       Content-Type:
       - application/x-www-form-urlencoded
@@ -26,7 +26,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 17 Dec 2015 06:38:45 GMT
+      - Thu, 17 Dec 2015 07:17:27 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -38,25 +38,25 @@ http_interactions:
       Cache-Control:
       - private
       X-Served-By:
-      - www-bm020.flickr.bf1.yahoo.com
+      - www305.flickr.bf1.yahoo.com
       Vary:
       - Accept-Encoding
       Age:
       - '0'
       Via:
-      - http/1.1 fts128.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
-        r31.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
+      - http/1.1 fts111.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
+        r29.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
       Server:
       - ATS
       Connection:
       - keep-alive
       Y-Trace:
-      - BAEAQAAAAAAppzIcPWm4MgAAAAAAAAAAB4oa3nftv7YAAAAAAAAAAAAFJxJGQ2NNAAUnEkZFYSP_P3.mAAAAAA--
+      - BAEAQAAAAAA_KoQd7S3NEgAAAAAAAAAAbhWw55tpMSoAAAAAAAAAAAAFJxLQqE1mAAUnEtCqvhEnkKJlAAAAAA--
     body:
       encoding: ASCII-8BIT
       string: '{"user":{"id":"45646189@N06","nsid":"45646189@N06","username":{"_content":"ross_edfort"}},"stat":"ok"}'
     http_version: 
-  recorded_at: Thu, 17 Dec 2015 06:38:45 GMT
+  recorded_at: Thu, 17 Dec 2015 07:17:27 GMT
 - request:
     method: post
     uri: https://api.flickr.com/services/rest/
@@ -72,8 +72,8 @@ http_interactions:
       - FlickRaw/0.9.8
       Authorization:
       - OAuth realm="https://api.flickr.com/services/rest/", oauth_consumer_key="0f3a24c9d16095734cebf6b5e8753f15",
-        oauth_nonce="wPJZtH3WldK9T1j%2F%2BAsK5X8ZE1owxIVIBumU2UnjpQc%3D", oauth_signature="e91fce5ff67d9678%26",
-        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450334325", oauth_token="",
+        oauth_nonce="uVlJz0R0F0avHt8d4fYRyPQ%2FDMfCBbTv8%2FTPk4Nkjbg%3D", oauth_signature="e91fce5ff67d9678%26",
+        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450336647", oauth_token="",
         oauth_version="1.0"
       Content-Type:
       - application/x-www-form-urlencoded
@@ -83,7 +83,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 17 Dec 2015 06:38:45 GMT
+      - Thu, 17 Dec 2015 07:17:27 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -95,26 +95,26 @@ http_interactions:
       Cache-Control:
       - private
       X-Served-By:
-      - www-bm004.flickr.bf1.yahoo.com
+      - www312.flickr.bf1.yahoo.com
       Vary:
       - Accept-Encoding
       Age:
       - '0'
       Via:
-      - http/1.1 fts128.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
-        r31.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
+      - http/1.1 fts113.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
+        r35.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
       Server:
       - ATS
       Connection:
       - keep-alive
       Y-Trace:
-      - BAEAQAAAAABV8kHddZkIpgAAAAAAAAAAB4oa3nftv7YAAAAAAAAAAAAFJxJGSWM3AAUnEkZNslc3rk7fAAAAAA--
+      - BAEAQAAAAABV81c2sbM0fwAAAAAAAAAAEhEiz8GUVyYAAAAAAAAAAAAFJxLQrv0CAAUnEtCyW3c.2zGAAAAAAA--
     body:
       encoding: ASCII-8BIT
       string: '{"person":{"id":"45646189@N06","nsid":"45646189@N06","ispro":0,"can_buy_pro":0,"iconserver":"8792","iconfarm":9,"path_alias":"ross_edfort","has_stats":"1","username":{"_content":"ross_edfort"},"description":{"_content":""},"photosurl":{"_content":"https:\/\/www.flickr.com\/photos\/ross_edfort\/"},"profileurl":{"_content":"https:\/\/www.flickr.com\/people\/ross_edfort\/"},"mobileurl":{"_content":"https:\/\/m.flickr.com\/photostream.gne?id=45600867"},"photos":{"firstdatetaken":{"_content":"2010-07-01
         19:40:47"},"firstdate":{"_content":"1278027647"},"count":{"_content":373}}},"stat":"ok"}'
     http_version: 
-  recorded_at: Thu, 17 Dec 2015 06:38:45 GMT
+  recorded_at: Thu, 17 Dec 2015 07:17:27 GMT
 - request:
     method: post
     uri: https://api.flickr.com/services/rest/
@@ -130,8 +130,8 @@ http_interactions:
       - FlickRaw/0.9.8
       Authorization:
       - OAuth realm="https://api.flickr.com/services/rest/", oauth_consumer_key="0f3a24c9d16095734cebf6b5e8753f15",
-        oauth_nonce="iM%2B550hjgWWJLeOJQNMASCKpVMuBv1u9LJkXHJOch3Y%3D", oauth_signature="e91fce5ff67d9678%26",
-        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450334325", oauth_token="",
+        oauth_nonce="nftp2Q0YAvm4sNDw5pOhuh%2FY%2BokD4TP%2Bsl0idbht4Fk%3D", oauth_signature="e91fce5ff67d9678%26",
+        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450336647", oauth_token="",
         oauth_version="1.0"
       Content-Type:
       - application/x-www-form-urlencoded
@@ -141,7 +141,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 17 Dec 2015 06:38:46 GMT
+      - Thu, 17 Dec 2015 07:17:28 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -153,27 +153,27 @@ http_interactions:
       Cache-Control:
       - private
       X-Served-By:
-      - www-bm023.flickr.bf1.yahoo.com
+      - www336.flickr.bf1.yahoo.com
       Vary:
       - Accept-Encoding
       Age:
       - '0'
       Via:
-      - http/1.1 fts125.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
-        r27.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
+      - http/1.1 fts103.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
+        r33.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
       Server:
       - ATS
       Connection:
       - keep-alive
       Y-Trace:
-      - BAEAQAAAAAB2S7AnNBF8hAAAAAAAAAAA7a3.mhpXmy0AAAAAAAAAAAAFJxJGU_3ZAAUnEkZV1QZfI2bqAAAAAA--
+      - BAEAQAAAAADhhC3u00EKowAAAAAAAAAAHbYVHTwF4X8AAAAAAAAAAAAFJxLQtos5AAUnEtC5rtbrfspUAAAAAA--
     body:
       encoding: ASCII-8BIT
       string: '{"photos":{"page":1,"pages":32,"perpage":12,"total":"373","photo":[{"id":"17362809323","owner":"45646189@N06","secret":"2eb0de3016","server":"7727","farm":8,"title":"Map","ispublic":1,"isfriend":0,"isfamily":0},{"id":"17956891336","owner":"45646189@N06","secret":"885450e9c7","server":"7703","farm":8,"title":"Whiskey","ispublic":1,"isfriend":0,"isfamily":0},{"id":"17956890516","owner":"45646189@N06","secret":"d21e6d5ffe","server":"8870","farm":9,"title":"Darts","ispublic":1,"isfriend":0,"isfamily":0},{"id":"17983325485","owner":"45646189@N06","secret":"c48afe2980","server":"8893","farm":9,"title":"","ispublic":1,"isfriend":0,"isfamily":0},{"id":"17980166842","owner":"45646189@N06","secret":"944244b77e","server":"5444","farm":6,"title":"Scenic
         View","ispublic":1,"isfriend":0,"isfamily":0},{"id":"17362803773","owner":"45646189@N06","secret":"383beded84","server":"7725","farm":8,"title":"","ispublic":1,"isfriend":0,"isfamily":0},{"id":"17544119775","owner":"45646189@N06","secret":"d5fefa7a56","server":"7668","farm":8,"title":"Cabin","ispublic":1,"isfriend":0,"isfamily":0},{"id":"17517039376","owner":"45646189@N06","secret":"1cd566f756","server":"8841","farm":9,"title":"","ispublic":1,"isfriend":0,"isfamily":0},{"id":"17541121972","owner":"45646189@N06","secret":"2f3fb50005","server":"8827","farm":9,"title":"","ispublic":1,"isfriend":0,"isfamily":0},{"id":"16923048363","owner":"45646189@N06","secret":"cfd22d1cb1","server":"7738","farm":8,"title":"","ispublic":1,"isfriend":0,"isfamily":0},{"id":"17498398486","owner":"45646189@N06","secret":"5d8ae38ffc","server":"7731","farm":8,"title":"House","ispublic":1,"isfriend":0,"isfamily":0},{"id":"17522578732","owner":"45646189@N06","secret":"6228189ba8","server":"8712","farm":9,"title":"Cute
         Cat","ispublic":1,"isfriend":0,"isfamily":0}]},"stat":"ok"}'
     http_version: 
-  recorded_at: Thu, 17 Dec 2015 06:38:46 GMT
+  recorded_at: Thu, 17 Dec 2015 07:17:28 GMT
 - request:
     method: post
     uri: https://api.flickr.com/services/rest/
@@ -189,8 +189,8 @@ http_interactions:
       - FlickRaw/0.9.8
       Authorization:
       - OAuth realm="https://api.flickr.com/services/rest/", oauth_consumer_key="0f3a24c9d16095734cebf6b5e8753f15",
-        oauth_nonce="FvHj%2BTb6d73OoIGXbNsImjo9SlCnxx3jhv%2F7YZ7EbVY%3D", oauth_signature="e91fce5ff67d9678%26",
-        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450334326", oauth_token="",
+        oauth_nonce="BHnbumvzHgwGcEK7P5e7TBVaPlxxxbRqGmCXGomN14c%3D", oauth_signature="e91fce5ff67d9678%26",
+        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450336648", oauth_token="",
         oauth_version="1.0"
       Content-Type:
       - application/x-www-form-urlencoded
@@ -200,7 +200,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 17 Dec 2015 06:38:46 GMT
+      - Thu, 17 Dec 2015 07:17:28 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -212,20 +212,20 @@ http_interactions:
       Cache-Control:
       - private
       X-Served-By:
-      - www52.flickr.bf1.yahoo.com
+      - www-bm020.flickr.bf1.yahoo.com
       Vary:
       - Accept-Encoding
       Age:
-      - '0'
+      - '1'
       Via:
-      - http/1.1 fts117.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
-        r29.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
+      - http/1.1 fts120.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
+        r32.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
       Server:
       - ATS
       Connection:
       - keep-alive
       Y-Trace:
-      - BAEAQAAAAACjn.RnYB9KwAAAAAAAAAAAbhWw55tpMSoAAAAAAAAAAAAFJxJGWYj6AAUnEkZcNZ44g5C1AAAAAA--
+      - BAEAQAAAAAC4Jbud1l0YawAAAAAAAAAAGvsL_RmIW3kAAAAAAAAAAAAFJxLQwNDuAAUnEtDDDcNwDc6cAAAAAA--
     body:
       encoding: ASCII-8BIT
       string: '{"photo":{"id":"17362809323","secret":"2eb0de3016","server":"7727","farm":8,"dateuploaded":"1432336229","isfavorite":0,"license":"1","safety_level":"0","rotation":0,"originalsecret":"f62c6d28ce","originalformat":"jpg","owner":{"nsid":"45646189@N06","username":"ross_edfort","realname":"","location":"","iconserver":"8792","iconfarm":9,"path_alias":"ross_edfort"},"title":{"_content":"Map"},"description":{"_content":""},"visibility":{"ispublic":1,"isfriend":0,"isfamily":0},"dates":{"posted":"1432336229","taken":"2015-05-22
@@ -234,7 +234,7 @@ http_interactions:
         Creek","place_id":"m2W7WMhQUL9CpgjbaQ","woeid":"12587737"},"region":{"_content":"Colorado","place_id":"Tz5TbMVTUb6cLY9f","woeid":"2347564"},"country":{"_content":"United
         States","place_id":"nz.gsghTUb4c2WAecA","woeid":"23424977"},"place_id":"aX58JetTVrhaUSDb","woeid":"2426441"},"geoperms":{"ispublic":1,"iscontact":0,"isfriend":0,"isfamily":0},"urls":{"url":[{"type":"photopage","_content":"https:\/\/www.flickr.com\/photos\/ross_edfort\/17362809323\/"}]},"media":"photo"},"stat":"ok"}'
     http_version: 
-  recorded_at: Thu, 17 Dec 2015 06:38:46 GMT
+  recorded_at: Thu, 17 Dec 2015 07:17:28 GMT
 - request:
     method: post
     uri: https://api.flickr.com/services/rest/
@@ -250,8 +250,8 @@ http_interactions:
       - FlickRaw/0.9.8
       Authorization:
       - OAuth realm="https://api.flickr.com/services/rest/", oauth_consumer_key="0f3a24c9d16095734cebf6b5e8753f15",
-        oauth_nonce="nOeqM2gb6ZAs3GyWZnhOeXfIWbQ2u3QTQPczGWVQj2g%3D", oauth_signature="e91fce5ff67d9678%26",
-        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450334326", oauth_token="",
+        oauth_nonce="xWOuHXXej2%2FP6nZ8PYh9FO6HsDqCo3y40wnLUxUgYrk%3D", oauth_signature="e91fce5ff67d9678%26",
+        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450336648", oauth_token="",
         oauth_version="1.0"
       Content-Type:
       - application/x-www-form-urlencoded
@@ -261,7 +261,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 17 Dec 2015 06:38:47 GMT
+      - Thu, 17 Dec 2015 07:17:29 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -273,20 +273,20 @@ http_interactions:
       Cache-Control:
       - private
       X-Served-By:
-      - www40.flickr.bf1.yahoo.com
+      - www311.flickr.bf1.yahoo.com
       Vary:
       - Accept-Encoding
       Age:
       - '0'
       Via:
-      - http/1.1 fts117.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
-        r29.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
+      - http/1.1 fts123.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
+        r26.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
       Server:
       - ATS
       Connection:
       - keep-alive
       Y-Trace:
-      - BAEAQAAAAAAZcSoBoQsjDQAAAAAAAAAAbhWw55tpMSoAAAAAAAAAAAAFJxJGYC__AAUnEkZiwgk21sucAAAAAA--
+      - BAEAQAAAAADDm.ihcIOMDgAAAAAAAAAA.GesvrNmJSgAAAAAAAAAAAAFJxLQyVKhAAUnEtDMA6R0aL4VAAAAAA--
     body:
       encoding: ASCII-8BIT
       string: '{"photo":{"id":"17956891336","secret":"885450e9c7","server":"7703","farm":8,"dateuploaded":"1432336228","isfavorite":0,"license":"1","safety_level":"0","rotation":0,"originalsecret":"783562cc00","originalformat":"jpg","owner":{"nsid":"45646189@N06","username":"ross_edfort","realname":"","location":"","iconserver":"8792","iconfarm":9,"path_alias":"ross_edfort"},"title":{"_content":"Whiskey"},"description":{"_content":""},"visibility":{"ispublic":1,"isfriend":0,"isfamily":0},"dates":{"posted":"1432336228","taken":"2015-05-15
@@ -294,7 +294,7 @@ http_interactions:
         Boulder","place_id":"sHcVevBUV7J4mK_Cyg","woeid":"55858120"},"locality":{"_content":"Boulder","place_id":"j3ThSq1TUbz4jf.U","woeid":"2367231"},"county":{"_content":"Boulder","place_id":"Z4av6d1QUL_Njz5oAA","woeid":"12587734"},"region":{"_content":"Colorado","place_id":"Tz5TbMVTUb6cLY9f","woeid":"2347564"},"country":{"_content":"United
         States","place_id":"nz.gsghTUb4c2WAecA","woeid":"23424977"},"place_id":"sHcVevBUV7J4mK_Cyg","woeid":"55858120"},"geoperms":{"ispublic":1,"iscontact":0,"isfriend":0,"isfamily":0},"urls":{"url":[{"type":"photopage","_content":"https:\/\/www.flickr.com\/photos\/ross_edfort\/17956891336\/"}]},"media":"photo"},"stat":"ok"}'
     http_version: 
-  recorded_at: Thu, 17 Dec 2015 06:38:46 GMT
+  recorded_at: Thu, 17 Dec 2015 07:17:29 GMT
 - request:
     method: post
     uri: https://api.flickr.com/services/rest/
@@ -310,8 +310,8 @@ http_interactions:
       - FlickRaw/0.9.8
       Authorization:
       - OAuth realm="https://api.flickr.com/services/rest/", oauth_consumer_key="0f3a24c9d16095734cebf6b5e8753f15",
-        oauth_nonce="qNd%2BAPsPJTx8dDMPSUXqiBiNWUXFSKuCh%2FD0Aj1f%2FE8%3D", oauth_signature="e91fce5ff67d9678%26",
-        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450334326", oauth_token="",
+        oauth_nonce="hGR2lrQ%2BB1HVAd6R8%2FnGjbTjurgVSZgW0kGq8KXHlKI%3D", oauth_signature="e91fce5ff67d9678%26",
+        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450336649", oauth_token="",
         oauth_version="1.0"
       Content-Type:
       - application/x-www-form-urlencoded
@@ -321,7 +321,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 17 Dec 2015 06:38:47 GMT
+      - Thu, 17 Dec 2015 07:17:29 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -333,20 +333,20 @@ http_interactions:
       Cache-Control:
       - private
       X-Served-By:
-      - www288.flickr.bf1.yahoo.com
+      - www310.flickr.bf1.yahoo.com
       Vary:
       - Accept-Encoding
       Age:
-      - '49'
+      - '0'
       Via:
-      - http/1.1 fts124.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
+      - http/1.1 fts104.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
         r32.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
       Server:
       - ATS
       Connection:
       - keep-alive
       Y-Trace:
-      - BAEAQAAAAAAUe.ep7B87BgAAAAAAAAAAGvsL_RmIW3kAAAAAAAAAAAAFJxJGZt.nAAUnEkZpmbcNG8B5AAAAAA--
+      - BAEAQAAAAABuSsYvGabLEQAAAAAAAAAAGvsL_RmIW3kAAAAAAAAAAAAFJxLQ0bGMAAUnEtDTtUJanz_vAAAAAA--
     body:
       encoding: ASCII-8BIT
       string: '{"photo":{"id":"17956890516","secret":"d21e6d5ffe","server":"8870","farm":9,"dateuploaded":"1432336227","isfavorite":0,"license":"1","safety_level":"0","rotation":0,"originalsecret":"cf4403df62","originalformat":"jpg","owner":{"nsid":"45646189@N06","username":"ross_edfort","realname":"","location":"","iconserver":"8792","iconfarm":9,"path_alias":"ross_edfort"},"title":{"_content":"Darts"},"description":{"_content":""},"visibility":{"ispublic":1,"isfriend":0,"isfamily":0},"dates":{"posted":"1432336227","taken":"2015-05-15
@@ -355,7 +355,7 @@ http_interactions:
         Ridge","place_id":"gp.NXyJTV7suWnZY","woeid":"2518851"},"county":{"_content":"Jefferson","place_id":"GW85THRQUL9C10SdqA","woeid":"12587757"},"region":{"_content":"Colorado","place_id":"Tz5TbMVTUb6cLY9f","woeid":"2347564"},"country":{"_content":"United
         States","place_id":"nz.gsghTUb4c2WAecA","woeid":"23424977"},"place_id":"1kVob7BUVL.J8tKozQ","woeid":"56571405"},"geoperms":{"ispublic":1,"iscontact":0,"isfriend":0,"isfamily":0},"urls":{"url":[{"type":"photopage","_content":"https:\/\/www.flickr.com\/photos\/ross_edfort\/17956890516\/"}]},"media":"photo"},"stat":"ok"}'
     http_version: 
-  recorded_at: Thu, 17 Dec 2015 06:38:47 GMT
+  recorded_at: Thu, 17 Dec 2015 07:17:30 GMT
 - request:
     method: post
     uri: https://api.flickr.com/services/rest/
@@ -371,8 +371,8 @@ http_interactions:
       - FlickRaw/0.9.8
       Authorization:
       - OAuth realm="https://api.flickr.com/services/rest/", oauth_consumer_key="0f3a24c9d16095734cebf6b5e8753f15",
-        oauth_nonce="5jjbU%2FVcJL5z6LktA5QUY6%2BFB%2Fdt9Y6hMMj%2FthmFDHg%3D", oauth_signature="e91fce5ff67d9678%26",
-        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450334327", oauth_token="",
+        oauth_nonce="r7aqSfKD0R%2FU1GlZcqgQ%2Fus4q7bvE5t36rfV%2FFwa30Q%3D", oauth_signature="e91fce5ff67d9678%26",
+        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450336650", oauth_token="",
         oauth_version="1.0"
       Content-Type:
       - application/x-www-form-urlencoded
@@ -382,7 +382,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 17 Dec 2015 06:38:48 GMT
+      - Thu, 17 Dec 2015 07:17:30 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -394,20 +394,20 @@ http_interactions:
       Cache-Control:
       - private
       X-Served-By:
-      - www255.flickr.bf1.yahoo.com
+      - www-bm011.flickr.bf1.yahoo.com
       Vary:
       - Accept-Encoding
       Age:
-      - '1'
+      - '0'
       Via:
-      - http/1.1 fts129.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
-        r31.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
+      - http/1.1 fts114.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
+        r27.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
       Server:
       - ATS
       Connection:
       - keep-alive
       Y-Trace:
-      - BAEAQAAAAACzfdEUGrTjTwAAAAAAAAAAB4oa3nftv7YAAAAAAAAAAAAFJxJGbPl8AAUnEkZwja5R7oKPAAAAAA--
+      - BAEAQAAAAACyff02Nd8y2QAAAAAAAAAA7a3.mhpXmy0AAAAAAAAAAAAFJxLQ3P_kAAUnEtDi2KZlxAisAAAAAA--
     body:
       encoding: ASCII-8BIT
       string: '{"photo":{"id":"17983325485","secret":"c48afe2980","server":"8893","farm":9,"dateuploaded":"1432336224","isfavorite":0,"license":"1","safety_level":"0","rotation":0,"originalsecret":"d5d57752f0","originalformat":"jpg","owner":{"nsid":"45646189@N06","username":"ross_edfort","realname":"","location":"","iconserver":"8792","iconfarm":9,"path_alias":"ross_edfort"},"title":{"_content":""},"description":{"_content":""},"visibility":{"ispublic":1,"isfriend":0,"isfamily":0},"dates":{"posted":"1432336224","taken":"2015-05-15
@@ -416,7 +416,7 @@ http_interactions:
         Ridge","place_id":"gp.NXyJTV7suWnZY","woeid":"2518851"},"county":{"_content":"Jefferson","place_id":"GW85THRQUL9C10SdqA","woeid":"12587757"},"region":{"_content":"Colorado","place_id":"Tz5TbMVTUb6cLY9f","woeid":"2347564"},"country":{"_content":"United
         States","place_id":"nz.gsghTUb4c2WAecA","woeid":"23424977"},"place_id":"1kVob7BUVL.J8tKozQ","woeid":"56571405"},"geoperms":{"ispublic":1,"iscontact":0,"isfriend":0,"isfamily":0},"urls":{"url":[{"type":"photopage","_content":"https:\/\/www.flickr.com\/photos\/ross_edfort\/17983325485\/"}]},"media":"photo"},"stat":"ok"}'
     http_version: 
-  recorded_at: Thu, 17 Dec 2015 06:38:47 GMT
+  recorded_at: Thu, 17 Dec 2015 07:17:31 GMT
 - request:
     method: post
     uri: https://api.flickr.com/services/rest/
@@ -432,8 +432,8 @@ http_interactions:
       - FlickRaw/0.9.8
       Authorization:
       - OAuth realm="https://api.flickr.com/services/rest/", oauth_consumer_key="0f3a24c9d16095734cebf6b5e8753f15",
-        oauth_nonce="TojuPgJPOgxdFHps6kjGr4SYqhBxXkS7JODwQUB3fXE%3D", oauth_signature="e91fce5ff67d9678%26",
-        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450334327", oauth_token="",
+        oauth_nonce="xJbl1IUyoHzfSG0BGaPDXNiZkxlEuDoiV1StOMuYG8k%3D", oauth_signature="e91fce5ff67d9678%26",
+        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450336651", oauth_token="",
         oauth_version="1.0"
       Content-Type:
       - application/x-www-form-urlencoded
@@ -443,7 +443,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 17 Dec 2015 06:38:48 GMT
+      - Thu, 17 Dec 2015 07:17:31 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -455,20 +455,20 @@ http_interactions:
       Cache-Control:
       - private
       X-Served-By:
-      - www283.flickr.bf1.yahoo.com
+      - www322.flickr.bf1.yahoo.com
       Vary:
       - Accept-Encoding
       Age:
       - '0'
       Via:
-      - http/1.1 fts109.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
+      - http/1.1 fts130.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
         r28.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
       Server:
       - ATS
       Connection:
       - keep-alive
       Y-Trace:
-      - BAEAQAAAAAAoM9qX1wK36wAAAAAAAAAA.Kv5noEHtbkAAAAAAAAAAAAFJxJGdArPAAUnEkZ28nRrPU0dAAAAAA--
+      - BAEAQAAAAADNDIFBFMB8VQAAAAAAAAAA.Kv5noEHtbkAAAAAAAAAAAAFJxLQ6y2kAAUnEtDtgGPKakHQAAAAAA--
     body:
       encoding: ASCII-8BIT
       string: '{"photo":{"id":"17980166842","secret":"944244b77e","server":"5444","farm":6,"dateuploaded":"1432336222","isfavorite":0,"license":"1","safety_level":"0","rotation":0,"originalsecret":"b790cd4b94","originalformat":"jpg","owner":{"nsid":"45646189@N06","username":"ross_edfort","realname":"","location":"","iconserver":"8792","iconfarm":9,"path_alias":"ross_edfort"},"title":{"_content":"Scenic
@@ -477,7 +477,7 @@ http_interactions:
         Creek","place_id":"m2W7WMhQUL9CpgjbaQ","woeid":"12587737"},"region":{"_content":"Colorado","place_id":"Tz5TbMVTUb6cLY9f","woeid":"2347564"},"country":{"_content":"United
         States","place_id":"nz.gsghTUb4c2WAecA","woeid":"23424977"},"place_id":"m2W7WMhQUL9CpgjbaQ","woeid":"12587737"},"geoperms":{"ispublic":1,"iscontact":0,"isfriend":0,"isfamily":0},"urls":{"url":[{"type":"photopage","_content":"https:\/\/www.flickr.com\/photos\/ross_edfort\/17980166842\/"}]},"media":"photo"},"stat":"ok"}'
     http_version: 
-  recorded_at: Thu, 17 Dec 2015 06:38:48 GMT
+  recorded_at: Thu, 17 Dec 2015 07:17:31 GMT
 - request:
     method: post
     uri: https://api.flickr.com/services/rest/
@@ -493,8 +493,8 @@ http_interactions:
       - FlickRaw/0.9.8
       Authorization:
       - OAuth realm="https://api.flickr.com/services/rest/", oauth_consumer_key="0f3a24c9d16095734cebf6b5e8753f15",
-        oauth_nonce="v6XlNOQabULAFodEfF3x00in5C0noIll6OZPLOu5dJs%3D", oauth_signature="e91fce5ff67d9678%26",
-        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450334328", oauth_token="",
+        oauth_nonce="A0qdbmvR7ndOSGyAN0OTZke0whd7EoEOZm46oM6h1XM%3D", oauth_signature="e91fce5ff67d9678%26",
+        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450336651", oauth_token="",
         oauth_version="1.0"
       Content-Type:
       - application/x-www-form-urlencoded
@@ -504,7 +504,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 17 Dec 2015 06:38:49 GMT
+      - Thu, 17 Dec 2015 07:17:32 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -516,20 +516,20 @@ http_interactions:
       Cache-Control:
       - private
       X-Served-By:
-      - www339.flickr.bf1.yahoo.com
+      - www341.flickr.bf1.yahoo.com
       Vary:
       - Accept-Encoding
       Age:
-      - '2'
+      - '0'
       Via:
-      - http/1.1 fts128.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
+      - http/1.1 fts122.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
         r35.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
       Server:
       - ATS
       Connection:
       - keep-alive
       Y-Trace:
-      - BAEAQAAAAABB_NOXoanlOQAAAAAAAAAAEhEiz8GUVyYAAAAAAAAAAAAFJxJGelcjAAUnEkZ8.ydI_zFPAAAAAA--
+      - BAEAQAAAAACPmmHlqayX_AAAAAAAAAAAEhEiz8GUVyYAAAAAAAAAAAAFJxLQ856gAAUnEtD3O_ctyBzZAAAAAA--
     body:
       encoding: ASCII-8BIT
       string: '{"photo":{"id":"17362803773","secret":"383beded84","server":"7725","farm":8,"dateuploaded":"1432336215","isfavorite":0,"license":"1","safety_level":"0","rotation":0,"originalsecret":"8c3546af94","originalformat":"jpg","owner":{"nsid":"45646189@N06","username":"ross_edfort","realname":"","location":"","iconserver":"8792","iconfarm":9,"path_alias":"ross_edfort"},"title":{"_content":""},"description":{"_content":""},"visibility":{"ispublic":1,"isfriend":0,"isfamily":0},"dates":{"posted":"1432336215","taken":"2015-05-22
@@ -537,7 +537,7 @@ http_interactions:
         Creek","place_id":"m2W7WMhQUL9CpgjbaQ","woeid":"12587737"},"region":{"_content":"Colorado","place_id":"Tz5TbMVTUb6cLY9f","woeid":"2347564"},"country":{"_content":"United
         States","place_id":"nz.gsghTUb4c2WAecA","woeid":"23424977"},"place_id":"m2W7WMhQUL9CpgjbaQ","woeid":"12587737"},"geoperms":{"ispublic":1,"iscontact":0,"isfriend":0,"isfamily":0},"urls":{"url":[{"type":"photopage","_content":"https:\/\/www.flickr.com\/photos\/ross_edfort\/17362803773\/"}]},"media":"photo"},"stat":"ok"}'
     http_version: 
-  recorded_at: Thu, 17 Dec 2015 06:38:48 GMT
+  recorded_at: Thu, 17 Dec 2015 07:17:32 GMT
 - request:
     method: post
     uri: https://api.flickr.com/services/rest/
@@ -553,8 +553,8 @@ http_interactions:
       - FlickRaw/0.9.8
       Authorization:
       - OAuth realm="https://api.flickr.com/services/rest/", oauth_consumer_key="0f3a24c9d16095734cebf6b5e8753f15",
-        oauth_nonce="aiwIncyOgUhpZDCcqLJuztNEH87Nj9AIoUpC2YAFSCI%3D", oauth_signature="e91fce5ff67d9678%26",
-        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450334328", oauth_token="",
+        oauth_nonce="WLrygQT75N2BEGwMbluHuTZwPRwyarYGk87SEYltyZc%3D", oauth_signature="e91fce5ff67d9678%26",
+        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450336652", oauth_token="",
         oauth_version="1.0"
       Content-Type:
       - application/x-www-form-urlencoded
@@ -564,7 +564,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 17 Dec 2015 06:38:49 GMT
+      - Thu, 17 Dec 2015 07:17:32 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -576,27 +576,27 @@ http_interactions:
       Cache-Control:
       - private
       X-Served-By:
-      - www308.flickr.bf1.yahoo.com
+      - www-bm012.flickr.bf1.yahoo.com
       Vary:
       - Accept-Encoding
       Age:
       - '0'
       Via:
-      - http/1.1 fts128.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
-        r36.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
+      - http/1.1 fts111.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
+        r29.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
       Server:
       - ATS
       Connection:
       - keep-alive
       Y-Trace:
-      - BAEAQAAAAAC1y4dpAi8N9QAAAAAAAAAAAydM.m3nyv8AAAAAAAAAAAAFJxJGgHoDAAUnEkaDmHTa1RtoAAAAAA--
+      - BAEAQAAAAABQedysMAH8.wAAAAAAAAAAbhWw55tpMSoAAAAAAAAAAAAFJxLQ_VyMAAUnEtD_l1sfF_HxAAAAAA--
     body:
       encoding: ASCII-8BIT
       string: '{"photo":{"id":"17544119775","secret":"d5fefa7a56","server":"7668","farm":8,"dateuploaded":"1431405733","isfavorite":0,"license":"1","safety_level":"0","rotation":0,"originalsecret":"af963169af","originalformat":"jpg","owner":{"nsid":"45646189@N06","username":"ross_edfort","realname":"","location":"","iconserver":"8792","iconfarm":9,"path_alias":"ross_edfort"},"title":{"_content":"Cabin"},"description":{"_content":""},"visibility":{"ispublic":1,"isfriend":0,"isfamily":0},"dates":{"posted":"1431405733","taken":"2015-05-02
         15:46:09","takengranularity":"0","takenunknown":"0","lastupdate":"1450323785"},"views":"36","editability":{"cancomment":0,"canaddmeta":0},"publiceditability":{"cancomment":1,"canaddmeta":0},"usage":{"candownload":1,"canblog":0,"canprint":0,"canshare":1},"comments":{"_content":"0"},"notes":{"note":[]},"people":{"haspeople":0},"tags":{"tag":[{"id":"45600867-17544119775-2933","author":"45646189@N06","authorname":"ross_edfort","raw":"cabin","_content":"cabin","machine_tag":false},{"id":"45600867-17544119775-412","author":"45646189@N06","authorname":"ross_edfort","raw":"snow","_content":"snow","machine_tag":false}]},"location":{"latitude":"39.338250","longitude":"-106.068512","accuracy":"16","context":"0","locality":{"_content":"Quartzville","place_id":"s0EJHkxUV7PaYwoQLA","woeid":"55959918"},"county":{"_content":"Park","place_id":"G87BSmFQUL_Px.U2yA","woeid":"12587774"},"region":{"_content":"Colorado","place_id":"Tz5TbMVTUb6cLY9f","woeid":"2347564"},"country":{"_content":"United
         States","place_id":"nz.gsghTUb4c2WAecA","woeid":"23424977"},"place_id":"s0EJHkxUV7PaYwoQLA","woeid":"55959918"},"geoperms":{"ispublic":1,"iscontact":0,"isfriend":0,"isfamily":0},"urls":{"url":[{"type":"photopage","_content":"https:\/\/www.flickr.com\/photos\/ross_edfort\/17544119775\/"}]},"media":"photo"},"stat":"ok"}'
     http_version: 
-  recorded_at: Thu, 17 Dec 2015 06:38:49 GMT
+  recorded_at: Thu, 17 Dec 2015 07:17:32 GMT
 - request:
     method: post
     uri: https://api.flickr.com/services/rest/
@@ -612,8 +612,8 @@ http_interactions:
       - FlickRaw/0.9.8
       Authorization:
       - OAuth realm="https://api.flickr.com/services/rest/", oauth_consumer_key="0f3a24c9d16095734cebf6b5e8753f15",
-        oauth_nonce="BHI6yNSOjAqEW%2BnL3X3Ol%2BHZEeMWxKy5juY9c5bBhIs%3D", oauth_signature="e91fce5ff67d9678%26",
-        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450334329", oauth_token="",
+        oauth_nonce="A7na4yLMGMpVfMs3lMeE%2BpJpdAaGs94wndwtIIIwZjg%3D", oauth_signature="e91fce5ff67d9678%26",
+        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450336652", oauth_token="",
         oauth_version="1.0"
       Content-Type:
       - application/x-www-form-urlencoded
@@ -623,7 +623,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 17 Dec 2015 06:38:49 GMT
+      - Thu, 17 Dec 2015 07:17:33 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -635,27 +635,27 @@ http_interactions:
       Cache-Control:
       - private
       X-Served-By:
-      - www242.flickr.bf1.yahoo.com
+      - www340.flickr.bf1.yahoo.com
       Vary:
       - Accept-Encoding
       Age:
-      - '2'
+      - '0'
       Via:
-      - http/1.1 fts128.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
+      - http/1.1 fts111.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
         r36.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
       Server:
       - ATS
       Connection:
       - keep-alive
       Y-Trace:
-      - BAEAQAAAAAA9232JYe4kmgAAAAAAAAAAAydM.m3nyv8AAAAAAAAAAAAFJxJGh1g9AAUnEkaLyKv9XtqeAAAAAA--
+      - BAEAQAAAAADlPCQVV_bhCAAAAAAAAAAAAydM.m3nyv8AAAAAAAAAAAAFJxLRCPTWAAUnEtEN9USESeXmAAAAAA--
     body:
       encoding: ASCII-8BIT
       string: '{"photo":{"id":"17517039376","secret":"1cd566f756","server":"8841","farm":9,"dateuploaded":"1431404276","isfavorite":0,"license":"1","safety_level":"0","rotation":0,"originalsecret":"3db987c563","originalformat":"jpg","owner":{"nsid":"45646189@N06","username":"ross_edfort","realname":"","location":"","iconserver":"8792","iconfarm":9,"path_alias":"ross_edfort"},"title":{"_content":""},"description":{"_content":""},"visibility":{"ispublic":1,"isfriend":0,"isfamily":0},"dates":{"posted":"1431404276","taken":"2015-05-02
         15:46:09","takengranularity":"0","takenunknown":"0","lastupdate":"1431404290"},"views":"28","editability":{"cancomment":0,"canaddmeta":0},"publiceditability":{"cancomment":1,"canaddmeta":0},"usage":{"candownload":1,"canblog":0,"canprint":0,"canshare":1},"comments":{"_content":"0"},"notes":{"note":[]},"people":{"haspeople":0},"tags":{"tag":[]},"location":{"latitude":"39.338250","longitude":"-106.068512","accuracy":"16","context":"0","locality":{"_content":"Quartzville","place_id":"s0EJHkxUV7PaYwoQLA","woeid":"55959918"},"county":{"_content":"Park","place_id":"G87BSmFQUL_Px.U2yA","woeid":"12587774"},"region":{"_content":"Colorado","place_id":"Tz5TbMVTUb6cLY9f","woeid":"2347564"},"country":{"_content":"United
         States","place_id":"nz.gsghTUb4c2WAecA","woeid":"23424977"},"place_id":"s0EJHkxUV7PaYwoQLA","woeid":"55959918"},"geoperms":{"ispublic":1,"iscontact":0,"isfriend":0,"isfamily":0},"urls":{"url":[{"type":"photopage","_content":"https:\/\/www.flickr.com\/photos\/ross_edfort\/17517039376\/"}]},"media":"photo"},"stat":"ok"}'
     http_version: 
-  recorded_at: Thu, 17 Dec 2015 06:38:49 GMT
+  recorded_at: Thu, 17 Dec 2015 07:17:33 GMT
 - request:
     method: post
     uri: https://api.flickr.com/services/rest/
@@ -671,8 +671,8 @@ http_interactions:
       - FlickRaw/0.9.8
       Authorization:
       - OAuth realm="https://api.flickr.com/services/rest/", oauth_consumer_key="0f3a24c9d16095734cebf6b5e8753f15",
-        oauth_nonce="0X4AcPPV1fcWLHzns38fVtndTWnLnVZ0v4pUb6I8x6k%3D", oauth_signature="e91fce5ff67d9678%26",
-        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450334329", oauth_token="",
+        oauth_nonce="BnK6Z7BvaWfH0GHIpVnvgVLr8yMIL8mwM46Tj0jcHW8%3D", oauth_signature="e91fce5ff67d9678%26",
+        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450336653", oauth_token="",
         oauth_version="1.0"
       Content-Type:
       - application/x-www-form-urlencoded
@@ -682,7 +682,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 17 Dec 2015 06:38:50 GMT
+      - Thu, 17 Dec 2015 07:17:34 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -694,27 +694,27 @@ http_interactions:
       Cache-Control:
       - private
       X-Served-By:
-      - www324.flickr.bf1.yahoo.com
+      - bm-www914.flickr.bf1.yahoo.com
       Vary:
       - Accept-Encoding
       Age:
       - '0'
       Via:
-      - http/1.1 fts109.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
-        r28.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
+      - http/1.1 fts104.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
+        r32.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
       Server:
       - ATS
       Connection:
       - keep-alive
       Y-Trace:
-      - BAEAQAAAAADlWfjazFTuYwAAAAAAAAAA.Kv5noEHtbkAAAAAAAAAAAAFJxJGkwl9AAUnEkaV0DOi5OvLAAAAAA--
+      - BAEAQAAAAAC2Wutf6icPZQAAAAAAAAAAGvsL_RmIW3kAAAAAAAAAAAAFJxLRHEc_AAUnEtEefRfmh9fiAAAAAA--
     body:
       encoding: ASCII-8BIT
       string: '{"photo":{"id":"17541121972","secret":"2f3fb50005","server":"8827","farm":9,"dateuploaded":"1431404253","isfavorite":0,"license":"1","safety_level":"0","rotation":0,"originalsecret":"e1ecb21366","originalformat":"jpg","owner":{"nsid":"45646189@N06","username":"ross_edfort","realname":"","location":"","iconserver":"8792","iconfarm":9,"path_alias":"ross_edfort"},"title":{"_content":""},"description":{"_content":""},"visibility":{"ispublic":1,"isfriend":0,"isfamily":0},"dates":{"posted":"1431404253","taken":"2015-05-02
         15:15:04","takengranularity":"0","takenunknown":"0","lastupdate":"1450323802"},"views":"27","editability":{"cancomment":0,"canaddmeta":0},"publiceditability":{"cancomment":1,"canaddmeta":0},"usage":{"candownload":1,"canblog":0,"canprint":0,"canshare":1},"comments":{"_content":"0"},"notes":{"note":[]},"people":{"haspeople":0},"tags":{"tag":[{"id":"45600867-17541121972-808","author":"45646189@N06","authorname":"ross_edfort","raw":"beer","_content":"beer","machine_tag":false}]},"location":{"latitude":"39.338027","longitude":"-106.068764","accuracy":"16","context":"0","locality":{"_content":"Quartzville","place_id":"s0EJHkxUV7PaYwoQLA","woeid":"55959918"},"county":{"_content":"Park","place_id":"G87BSmFQUL_Px.U2yA","woeid":"12587774"},"region":{"_content":"Colorado","place_id":"Tz5TbMVTUb6cLY9f","woeid":"2347564"},"country":{"_content":"United
         States","place_id":"nz.gsghTUb4c2WAecA","woeid":"23424977"},"place_id":"s0EJHkxUV7PaYwoQLA","woeid":"55959918"},"geoperms":{"ispublic":1,"iscontact":0,"isfriend":0,"isfamily":0},"urls":{"url":[{"type":"photopage","_content":"https:\/\/www.flickr.com\/photos\/ross_edfort\/17541121972\/"}]},"media":"photo"},"stat":"ok"}'
     http_version: 
-  recorded_at: Thu, 17 Dec 2015 06:38:50 GMT
+  recorded_at: Thu, 17 Dec 2015 07:17:34 GMT
 - request:
     method: post
     uri: https://api.flickr.com/services/rest/
@@ -730,8 +730,8 @@ http_interactions:
       - FlickRaw/0.9.8
       Authorization:
       - OAuth realm="https://api.flickr.com/services/rest/", oauth_consumer_key="0f3a24c9d16095734cebf6b5e8753f15",
-        oauth_nonce="2V60PVUjvA%2FrpfQU8Qx7%2B0HcGTMiRcAFxmk8AxUkW6A%3D", oauth_signature="e91fce5ff67d9678%26",
-        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450334330", oauth_token="",
+        oauth_nonce="BeHAad9JZit31LQ3UWC9xGwfszculgJZjoGh7JgjGA4%3D", oauth_signature="e91fce5ff67d9678%26",
+        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450336654", oauth_token="",
         oauth_version="1.0"
       Content-Type:
       - application/x-www-form-urlencoded
@@ -741,7 +741,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 17 Dec 2015 06:38:51 GMT
+      - Thu, 17 Dec 2015 07:17:35 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -753,27 +753,27 @@ http_interactions:
       Cache-Control:
       - private
       X-Served-By:
-      - www-bm017.flickr.bf1.yahoo.com
+      - www53.flickr.bf1.yahoo.com
       Vary:
       - Accept-Encoding
       Age:
-      - '2'
+      - '0'
       Via:
-      - http/1.1 fts128.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
-        r35.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
+      - http/1.1 fts125.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
+        r33.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
       Server:
       - ATS
       Connection:
       - keep-alive
       Y-Trace:
-      - BAEAQAAAAAC5dfGgdkLpTgAAAAAAAAAAEhEiz8GUVyYAAAAAAAAAAAAFJxJGmSkBAAUnEkabFiwBGkc2AAAAAA--
+      - BAEAQAAAAADPqzfv21u6aQAAAAAAAAAAHbYVHTwF4X8AAAAAAAAAAAAFJxLRKsDQAAUnEtEuCdCpv3dFAAAAAA--
     body:
       encoding: ASCII-8BIT
       string: '{"photo":{"id":"16923048363","secret":"cfd22d1cb1","server":"7738","farm":8,"dateuploaded":"1431404253","isfavorite":0,"license":"1","safety_level":"0","rotation":0,"originalsecret":"0272444e47","originalformat":"jpg","owner":{"nsid":"45646189@N06","username":"ross_edfort","realname":"","location":"","iconserver":"8792","iconfarm":9,"path_alias":"ross_edfort"},"title":{"_content":""},"description":{"_content":""},"visibility":{"ispublic":1,"isfriend":0,"isfamily":0},"dates":{"posted":"1431404253","taken":"2015-05-02
         17:05:03","takengranularity":"0","takenunknown":"0","lastupdate":"1431404267"},"views":"27","editability":{"cancomment":0,"canaddmeta":0},"publiceditability":{"cancomment":1,"canaddmeta":0},"usage":{"candownload":1,"canblog":0,"canprint":0,"canshare":1},"comments":{"_content":"0"},"notes":{"note":[]},"people":{"haspeople":0},"tags":{"tag":[]},"location":{"latitude":"39.338183","longitude":"-106.068628","accuracy":"16","context":"0","locality":{"_content":"Quartzville","place_id":"s0EJHkxUV7PaYwoQLA","woeid":"55959918"},"county":{"_content":"Park","place_id":"G87BSmFQUL_Px.U2yA","woeid":"12587774"},"region":{"_content":"Colorado","place_id":"Tz5TbMVTUb6cLY9f","woeid":"2347564"},"country":{"_content":"United
         States","place_id":"nz.gsghTUb4c2WAecA","woeid":"23424977"},"place_id":"s0EJHkxUV7PaYwoQLA","woeid":"55959918"},"geoperms":{"ispublic":1,"iscontact":0,"isfriend":0,"isfamily":0},"urls":{"url":[{"type":"photopage","_content":"https:\/\/www.flickr.com\/photos\/ross_edfort\/16923048363\/"}]},"media":"photo"},"stat":"ok"}'
     http_version: 
-  recorded_at: Thu, 17 Dec 2015 06:38:50 GMT
+  recorded_at: Thu, 17 Dec 2015 07:17:35 GMT
 - request:
     method: post
     uri: https://api.flickr.com/services/rest/
@@ -789,8 +789,8 @@ http_interactions:
       - FlickRaw/0.9.8
       Authorization:
       - OAuth realm="https://api.flickr.com/services/rest/", oauth_consumer_key="0f3a24c9d16095734cebf6b5e8753f15",
-        oauth_nonce="ppwO8Mftx4Z%2B5RJbGINQLvQj5RU%2Bt6o%2FJtO87890Fco%3D", oauth_signature="e91fce5ff67d9678%26",
-        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450334330", oauth_token="",
+        oauth_nonce="0IU3bPC1hRA7uVaF2puPdlYOCYHU7Eag%2BE2EDjolrsw%3D", oauth_signature="e91fce5ff67d9678%26",
+        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450336655", oauth_token="",
         oauth_version="1.0"
       Content-Type:
       - application/x-www-form-urlencoded
@@ -800,7 +800,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 17 Dec 2015 06:38:51 GMT
+      - Thu, 17 Dec 2015 07:17:36 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -812,27 +812,27 @@ http_interactions:
       Cache-Control:
       - private
       X-Served-By:
-      - www-bm005.flickr.bf1.yahoo.com
+      - www291.flickr.bf1.yahoo.com
       Vary:
       - Accept-Encoding
       Age:
       - '0'
       Via:
-      - http/1.1 fts120.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
-        r26.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
+      - http/1.1 fts128.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
+        r33.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
       Server:
       - ATS
       Connection:
       - keep-alive
       Y-Trace:
-      - BAEAQAAAAACkl9myxKwSGAAAAAAAAAAA.GesvrNmJSgAAAAAAAAAAAAFJxJGnqDHAAUnEkag.vTcxvN_AAAAAA--
+      - BAEAQAAAAABM1SAPsPidgAAAAAAAAAAAHbYVHTwF4X8AAAAAAAAAAAAFJxLRNDgQAAUnEtE4Y.wt.TjTAAAAAA--
     body:
       encoding: ASCII-8BIT
       string: '{"photo":{"id":"17498398486","secret":"5d8ae38ffc","server":"7731","farm":8,"dateuploaded":"1431362281","isfavorite":0,"license":"1","safety_level":"0","rotation":0,"originalsecret":"fac0d719bc","originalformat":"jpg","owner":{"nsid":"45646189@N06","username":"ross_edfort","realname":"","location":"","iconserver":"8792","iconfarm":9,"path_alias":"ross_edfort"},"title":{"_content":"House"},"description":{"_content":""},"visibility":{"ispublic":1,"isfriend":0,"isfamily":0},"dates":{"posted":"1431362281","taken":"2015-05-06
         20:01:26","takengranularity":"0","takenunknown":"0","lastupdate":"1450323747"},"views":"35","editability":{"cancomment":0,"canaddmeta":0},"publiceditability":{"cancomment":1,"canaddmeta":0},"usage":{"candownload":1,"canblog":0,"canprint":0,"canshare":1},"comments":{"_content":"0"},"notes":{"note":[]},"people":{"haspeople":0},"tags":{"tag":[]},"location":{"latitude":"39.681858","longitude":"-104.969337","accuracy":"16","context":"0","neighbourhood":{"_content":"University","place_id":"o42SMV1TW7ncBSBUvA","woeid":"29389076"},"locality":{"_content":"Denver","place_id":"K8OZt3JTUbO7GteE","woeid":"2391279"},"county":{"_content":"Denver","place_id":"B9wgXgBQUL9dypyOTQ","woeid":"12587743"},"region":{"_content":"Colorado","place_id":"Tz5TbMVTUb6cLY9f","woeid":"2347564"},"country":{"_content":"United
         States","place_id":"nz.gsghTUb4c2WAecA","woeid":"23424977"},"place_id":"o42SMV1TW7ncBSBUvA","woeid":"29389076"},"geoperms":{"ispublic":1,"iscontact":0,"isfriend":0,"isfamily":0},"urls":{"url":[{"type":"photopage","_content":"https:\/\/www.flickr.com\/photos\/ross_edfort\/17498398486\/"}]},"media":"photo"},"stat":"ok"}'
     http_version: 
-  recorded_at: Thu, 17 Dec 2015 06:38:51 GMT
+  recorded_at: Thu, 17 Dec 2015 07:17:36 GMT
 - request:
     method: post
     uri: https://api.flickr.com/services/rest/
@@ -848,8 +848,8 @@ http_interactions:
       - FlickRaw/0.9.8
       Authorization:
       - OAuth realm="https://api.flickr.com/services/rest/", oauth_consumer_key="0f3a24c9d16095734cebf6b5e8753f15",
-        oauth_nonce="jEs0n8udM2gZ%2B%2BDfVrjIxYinyP2g7jJviM8P%2F7vMY%2B0%3D", oauth_signature="e91fce5ff67d9678%26",
-        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450334331", oauth_token="",
+        oauth_nonce="j2z3ztQIOJ7yMT9FpGV1LHf1w5BEgsHhqc2S2s1aLAc%3D", oauth_signature="e91fce5ff67d9678%26",
+        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450336656", oauth_token="",
         oauth_version="1.0"
       Content-Type:
       - application/x-www-form-urlencoded
@@ -859,7 +859,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 17 Dec 2015 06:38:51 GMT
+      - Thu, 17 Dec 2015 07:17:37 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -871,20 +871,20 @@ http_interactions:
       Cache-Control:
       - private
       X-Served-By:
-      - bm-www914.flickr.bf1.yahoo.com
+      - www307.flickr.bf1.yahoo.com
       Vary:
       - Accept-Encoding
       Age:
       - '0'
       Via:
-      - http/1.1 fts113.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
+      - http/1.1 fts129.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
         r29.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
       Server:
       - ATS
       Connection:
       - keep-alive
       Y-Trace:
-      - BAEAQAAAAAC.b7Qu4vq3SwAAAAAAAAAAbhWw55tpMSoAAAAAAAAAAAAFJxJGpN..AAUnEkanURsP9PUKAAAAAA--
+      - BAEAQAAAAAAc3x0jlXGERwAAAAAAAAAAbhWw55tpMSoAAAAAAAAAAAAFJxLRP3D6AAUnEtFCDpfoc6KaAAAAAA--
     body:
       encoding: ASCII-8BIT
       string: '{"photo":{"id":"17522578732","secret":"6228189ba8","server":"8712","farm":9,"dateuploaded":"1431362278","isfavorite":0,"license":"1","safety_level":"0","rotation":0,"originalsecret":"ece700533a","originalformat":"jpg","owner":{"nsid":"45646189@N06","username":"ross_edfort","realname":"","location":"","iconserver":"8792","iconfarm":9,"path_alias":"ross_edfort"},"title":{"_content":"Cute
@@ -892,7 +892,7 @@ http_interactions:
         09:32:32","takengranularity":"0","takenunknown":"0","lastupdate":"1450323743"},"views":"31","editability":{"cancomment":0,"canaddmeta":0},"publiceditability":{"cancomment":1,"canaddmeta":0},"usage":{"candownload":1,"canblog":0,"canprint":0,"canshare":1},"comments":{"_content":"1"},"notes":{"note":[]},"people":{"haspeople":0},"tags":{"tag":[{"id":"45600867-17522578732-1344","author":"45646189@N06","authorname":"ross_edfort","raw":"cat","_content":"cat","machine_tag":false},{"id":"45600867-17522578732-923","author":"45646189@N06","authorname":"ross_edfort","raw":"car","_content":"car","machine_tag":false}]},"location":{"latitude":"39.681725","longitude":"-104.969812","accuracy":"16","context":"0","neighbourhood":{"_content":"University","place_id":"o42SMV1TW7ncBSBUvA","woeid":"29389076"},"locality":{"_content":"Denver","place_id":"K8OZt3JTUbO7GteE","woeid":"2391279"},"county":{"_content":"Denver","place_id":"B9wgXgBQUL9dypyOTQ","woeid":"12587743"},"region":{"_content":"Colorado","place_id":"Tz5TbMVTUb6cLY9f","woeid":"2347564"},"country":{"_content":"United
         States","place_id":"nz.gsghTUb4c2WAecA","woeid":"23424977"},"place_id":"o42SMV1TW7ncBSBUvA","woeid":"29389076"},"geoperms":{"ispublic":1,"iscontact":0,"isfriend":0,"isfamily":0},"urls":{"url":[{"type":"photopage","_content":"https:\/\/www.flickr.com\/photos\/ross_edfort\/17522578732\/"}]},"media":"photo"},"stat":"ok"}'
     http_version: 
-  recorded_at: Thu, 17 Dec 2015 06:38:51 GMT
+  recorded_at: Thu, 17 Dec 2015 07:17:37 GMT
 - request:
     method: post
     uri: https://api.flickr.com/services/rest/
@@ -908,8 +908,8 @@ http_interactions:
       - FlickRaw/0.9.8
       Authorization:
       - OAuth realm="https://api.flickr.com/services/rest/", oauth_consumer_key="0f3a24c9d16095734cebf6b5e8753f15",
-        oauth_nonce="%2BlqmoNCzEA7J08CpynsbFouq9520MklJkTPvP24IK1o%3D", oauth_signature="e91fce5ff67d9678%26",
-        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450334331", oauth_token="",
+        oauth_nonce="b9dStDisAjUo47eZXa1t%2FOGYGrUuw1OEqSCS6FcjTUY%3D", oauth_signature="e91fce5ff67d9678%26",
+        oauth_signature_method="PLAINTEXT", oauth_timestamp="1450336657", oauth_token="",
         oauth_version="1.0"
       Content-Type:
       - application/x-www-form-urlencoded
@@ -919,7 +919,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 17 Dec 2015 06:38:52 GMT
+      - Thu, 17 Dec 2015 07:17:37 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -931,24 +931,24 @@ http_interactions:
       Cache-Control:
       - private
       X-Served-By:
-      - www60.flickr.bf1.yahoo.com
+      - www43.flickr.bf1.yahoo.com
       Vary:
       - Accept-Encoding
       Age:
       - '0'
       Via:
-      - http/1.1 fts119.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
-        r35.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
+      - http/1.1 fts104.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1
+        r36.ycpi.ne1.yahoo.net (ApacheTrafficServer [cMsSf ])
       Server:
       - ATS
       Connection:
       - keep-alive
       Y-Trace:
-      - BAEAQAAAAABV2KxvNgqTxAAAAAAAAAAAEhEiz8GUVyYAAAAAAAAAAAAFJxJGqt_XAAUnEkat8809wnpUAAAAAA--
+      - BAEAQAAAAACjp3KwvjsipwAAAAAAAAAAAydM.m3nyv8AAAAAAAAAAAAFJxLRSGlSAAUnEtFMqXRLw3lxAAAAAA--
     body:
       encoding: ASCII-8BIT
       string: '{"person":{"id":"45646189@N06","nsid":"45646189@N06","ispro":0,"can_buy_pro":0,"iconserver":"8792","iconfarm":9,"path_alias":"ross_edfort","has_stats":"1","username":{"_content":"ross_edfort"},"description":{"_content":""},"photosurl":{"_content":"https:\/\/www.flickr.com\/photos\/ross_edfort\/"},"profileurl":{"_content":"https:\/\/www.flickr.com\/people\/ross_edfort\/"},"mobileurl":{"_content":"https:\/\/m.flickr.com\/photostream.gne?id=45600867"},"photos":{"firstdatetaken":{"_content":"2010-07-01
         19:40:47"},"firstdate":{"_content":"1278027647"},"count":{"_content":373}}},"stat":"ok"}'
     http_version: 
-  recorded_at: Thu, 17 Dec 2015 06:38:51 GMT
+  recorded_at: Thu, 17 Dec 2015 07:17:37 GMT
 recorded_with: VCR 3.0.0
