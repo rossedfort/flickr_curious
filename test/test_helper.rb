@@ -52,4 +52,8 @@ class ActiveSupport::TestCase
                                                                 OpenStruct.new({"id"=>"17336937248", "secret"=>"9d860271b0", "server"=>"7697", "farm"=>8, "title"=>"", "isprimary"=>"0", "ispublic"=>1, "isfriend"=>0, "isfamily"=>0})]
                                                                  )
   end
+
+  def stub_flickr_user
+    ApplicationController.any_instance.stubs(:flickr_user).returns(OpenStruct.new({"id"=>"45646189@N06", "nsid"=>"45646189@N06", "username"=>"ross_edfort"}))
+  end
 end

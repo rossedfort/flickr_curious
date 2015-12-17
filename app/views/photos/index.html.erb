@@ -1,9 +1,9 @@
 <div class="container top-margin center">
   <h1>Your Photos</h1><br>
   <div class="row">
-    <% @photos.each do |photo| %>
-      <div class="photo-container col s3" id="photo_<%= photo.id %>">
-        <%= link_to photo_path(photo.id) do %>
+    <% @photos.each_with_index do |photo, index| %>
+      <div class="photo-container col s3" id="photo_<%= index %>">
+        <%= link_to photo_path(photo.id), id: "photo_link_#{index}" do %>
           <%= image_tag get_photo(photo.id) %>
         <% end %>
       </div>

@@ -17,4 +17,11 @@ class FlickrServiceTest < ActiveSupport::TestCase
       assert_equal 12, photos.count
     end
   end
+
+  test "#get_photo" do
+    VCR.use_cassette("flickr_service#get_photo") do
+      photo = service.get_photo(17983325485)
+      assert_equal photo, "https://farm9.staticflickr.com/8893/17983325485_c48afe2980_b.jpg"
+    end
+  end
 end

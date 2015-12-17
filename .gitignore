@@ -18,3 +18,5 @@
 /coverage
 
 /config/secrets.yml
+
+/test/cassettes
