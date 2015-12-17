@@ -1,9 +1,15 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
-  helper_method :current_user, :flickr_user, :first_album_photo, :get_photo, :user_info, :buddy_icon, :has_location?, :has_county?, :views
+  helper_method :current_user, :flickr_user, :first_album_photo, :get_photo,
+                :user_info, :buddy_icon, :has_location?, :has_county?, :views,
+                :get_photo_url_m, :get_photo_url_c, :get_photopage_url, :top_tags
 
   def current_user
     @current_user ||= User.find_by(id: session[:user_id]) if session[:user_id]
+  end
+
+  def top_tags
+    flickr.places.tagsForPlace(woe_id: '12792942')
   end
 
   def flickr_user(uid)
@@ -13,6 +19,18 @@ class ApplicationController < ActionController::Base
   def first_album_photo(album)
     info = flickr.photos.getInfo(photo_id: album.primary)
     FlickRaw.url_m(info)
+  end
+
+  def get_photo_url_m(photo)
+    FlickRaw.url_m(photo)
+  end
+
+  def get_photo_url_c(photo)
+    FlickRaw.url_c(photo)
+  end
+
+  def get_photopage_url(photo)
+    FlickRaw.url_photopage(photo)
   end
 
   def get_photo(photo_id)

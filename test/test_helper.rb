@@ -22,6 +22,7 @@ class ActiveSupport::TestCase
   def setup
     DatabaseCleaner.start
     Capybara.app = FlickrCurious::Application
+    stub_tags
   end
 
   def teardown
@@ -68,5 +69,9 @@ class ActiveSupport::TestCase
 
   def stub_views
     ApplicationController.any_instance.stubs(:views).returns(OpenStruct.new("views" => "20"))
+  end
+
+  def stub_tags
+    ApplicationController.any_instance.stubs(:top_tags).returns(%w(cool wow amaze such doge this is the bes group of tags))
   end
 end

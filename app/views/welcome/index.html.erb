@@ -16,5 +16,13 @@
       </div>
   <% else %>
     <%= link_to "login", login_path %>
-  <% end %>
+    <div class="top-margin">
+      <h1>Top Tags for Denver!</h1><br>
+    <p>
+      <% top_tags.each do |tag| %>
+        <%= tag %> -
+      <% end %>
+    </p>
+    <% end %>
+  </div>
 </div>

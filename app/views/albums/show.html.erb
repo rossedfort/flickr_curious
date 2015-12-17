@@ -6,7 +6,7 @@
       <div class="col s3 album-photo-container">
         <div class="photo-container" id="album_photo_<%= index %>">
           <%= link_to photo_path(photo.id) do %>
-            <%= image_tag FlickRaw.url_m(photo) %>
+            <%= image_tag get_photo_url_m(photo) %>
           <% end %>
         </div>
         <div class="photo-description">

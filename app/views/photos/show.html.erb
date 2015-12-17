@@ -1,7 +1,7 @@
 <div class="row">
   <div class="top-margin center col s9 large-photo-col">
     <h1><%= @photo.title %></h1>
-    <%= image_tag FlickRaw.url_c(@photo), class: "photo" %>
+    <%= image_tag get_photo_url_c(@photo), class: "photo" %>
   </div>
   <div class="large-top-margin photo-info">
     <div class="top-margin">
@@ -21,7 +21,7 @@
           <%= tag %>,
         <% end %>
       </h3>
-      <%= link_to "View on Flickr", FlickRaw.url_photopage(@photo) %>
+      <%= link_to "View on Flickr", get_photopage_url(@photo) %>
     </div>
   </div>
 </div>
